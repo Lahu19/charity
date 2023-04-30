@@ -1,0 +1,232 @@
+/* Global styles */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+  
+  /* Header */
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+  }
+  
+  .logo {
+    font-size: 2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+  }
+  
+  nav ul li {
+    margin-right: 2rem;
+    transition: transform 0.3s ease;
+  }
+  
+  nav ul li:hover {
+    transform: scale(1.2);
+  }
+  
+  nav a {
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  nav a:hover {
+    color: #007bff;
+  }
+  
+  /* Hero section */
+  
+  #hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  #hero h1 {
+    font-size: 4rem;
+    text-align: center;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 1rem 2rem;
+    background-color: #fff;
+    color: #007bff;
+    border: none;
+    border-radius: 3px;
+    margin-top: 2rem;
+    transition: transform 0.3s ease;
+  }
+  
+  .btn:hover {
+    transform: translateY(-3px);
+  }
+  
+  /* About section */
+  
+  #about {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 2rem;
+    margin: 4rem 0;
+  }
+  
+  #about .circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 5rem;
+    height: 5rem;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 50%;
+    font-size: 2rem;
+    line-height: 5rem;
+    margin-bottom: 2rem;
+    transition: transform 0.3s ease;
+  }
+  
+  #about .circle:hover {
+    transform: rotate(360deg);
+  }
+  
+  #about p {
+    margin-top: 1rem;
+  }
+  
+  /* Programs section */
+  
+  #programs {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 2rem;
+    margin: 4rem 0;
+  }
+  
+  .program {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    transition: transform 0.3s ease;
+  }
+  
+  .program:hover {
+    transform: translateY(-3px);
+  }
+  
+  .program h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .program img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+  }
+  /* Donate section */
+  
+  #donate {
+    background-color: #007bff;
+    text-align: center;
+    color: #fff;
+    padding: 5rem 2rem;
+  }
+  
+  #donate h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  #donate p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+  }
+  
+ /* Contact section */
+
+ /* Contact section */
+
+#contact {
+    margin: 4rem 0;
+    max-width: 800px;
+    padding: 0 1rem;
+  }
+  
+  #contact h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  #contact form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2rem;
+  }
+  
+  #contact label {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  #contact input,
+  #contact textarea {
+    width: 70%;
+    padding: .5rem;
+    border: none;
+    border-radius: 3px;
+    margin-bottom: 1rem;
+  }
+  
+  #contact input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 3px;
+    font-size: 1.2rem;
+    cursor: pointer;
+  }
+  
+  #contact input[type="submit"]:hover {
+    background-color: #0062cc;
+  }
+  
+
+  
+  
